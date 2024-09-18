@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="One-To-Many" />
+        <module name="HQL" />
+        <module name="One-To-One" />
+        <module name="JPQL" />
+        <module name="JoinColumn-annotation" />
+        <module name="Many-To-Many" />
+        <module name="LazyFetching" />
+        <module name="EagerFeching" />
+        <module name="SQL" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Eager_Fetching" target="21" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
